@@ -1,0 +1,241 @@
+/* Style untuk addmenu.css dan editmenu.css */
+
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style untuk body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fc;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Style untuk container */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style untuk heading */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* Style untuk form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Style untuk form group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Style untuk label */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+/* Style untuk input dan textarea */
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+    border-color: #4e73df;
+    outline: none;
+    box-shadow: 0 0 5px rgba(78, 115, 223, 0.2);
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* Style untuk file input */
+.form-control-file {
+    padding: 10px 0;
+}
+
+/* Style untuk preview gambar */
+.image-preview {
+    max-width: 200px;
+    margin: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style untuk small text */
+.form-text {
+    color: #6c757d;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Style untuk button container */
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Style untuk buttons */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #4e73df;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #2e59d9;
+}
+
+.btn-secondary {
+    background-color: #858796;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #717384;
+}
+
+/* Style untuk checkbox container */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+/* Style untuk checkbox */
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+/* Style untuk error messages */
+.error-message {
+    color: #e74a3b;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Style untuk success messages */
+.success-message {
+    color: #1cc88a;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .button-container {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Style untuk current image preview */
+.current-image {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f8f9fc;
+}
+
+.current-image img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Style untuk remove image checkbox */
+.remove-image-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff3f3;
+    border-radius: 4px;
+}
+
+.remove-image-container input[type="checkbox"] {
+    margin: 0;
+}
+
+/* Style untuk disabled inputs */
+input:disabled,
+textarea:disabled {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+}
+
+/* Style untuk required field indicator */
+.required-field::after {
+    content: "*";
+    color: #e74a3b;
+    margin-left: 4px;
+}
+
+/* Style untuk form header */
+.form-header {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Style untuk form footer */
+.form-footer {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}

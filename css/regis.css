@@ -1,0 +1,135 @@
+/*--------------------------------------------------------------
+# General Styles
+--------------------------------------------------------------*/
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #0c0b09; /* Warna latar belakang gelap */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  a {
+    color: #cda45e;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #d9ba85;
+  }
+  
+  /*--------------------------------------------------------------
+  # Register Container
+  --------------------------------------------------------------*/
+  .register-container {
+    background: #1a1814;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .register-container h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    color: #cda45e;
+    margin-bottom: 20px;
+  }
+  
+  .register-container .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .register-container label {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  
+  .register-container input[type="text"],
+  .register-container input[type="password"],
+  .register-container input[type="tel"],
+  .register-container input[type="email"],
+  .register-container textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #37332a;
+    border-radius: 5px;
+    background: #0c0b09;
+    color: #fff;
+    outline: none;
+  }
+  
+  .register-container input[type="submit"] {
+    background: #cda45e;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+  }
+  
+  .register-container input[type="submit"]:hover {
+    background: #d3af71;
+  }
+  
+  .register-container textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .register-container .error-message,
+  .register-container .success-message {
+    color: #fff;
+    background-color: #d9534f; /* Red for errors */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .register-container .success-message {
+    background-color: #5bc0de; /* Blue for success */
+  }
+  
+  .register-container .login-link {
+    margin-top: 20px;
+  }
+  
+  .register-container .login-link p {
+    font-size: 16px;
+  }
+  
+  .register-container .login-link a {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  /*--------------------------------------------------------------
+  # Responsive Design
+  --------------------------------------------------------------*/
+  @media screen and (max-width: 768px) {
+    .register-container {
+      padding: 30px;
+      width: 90%;
+    }
+  
+    .register-container h2 {
+      font-size: 28px;
+    }
+  
+    .register-container input[type="submit"] {
+      font-size: 14px;
+    }
+  }
+  

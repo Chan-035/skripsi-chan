@@ -1,0 +1,100 @@
+/* Reset CSS untuk menghilangkan margin dan padding default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Warna latar belakang */
+    color: #343a40; /* Warna teks */
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    max-width: 800px; /* Lebar maksimum kontainer */
+    margin: 20px auto; /* Margin atas dan bawah 20px, tengah */
+    padding: 20px; /* Padding dalam kontainer */
+    background-color: white; /* Warna latar belakang kontainer */
+    border-radius: 5px; /* Sudut melengkung */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+/* Judul */
+h1 {
+    text-align: center; /* Teks di tengah */
+    color: #333; /* Warna teks judul */
+    margin-bottom: 20px; /* Jarak bawah judul */
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px; /* Jarak bawah setiap grup form */
+}
+
+label {
+    display: block; /* Menampilkan label sebagai blok */
+    margin-bottom: 5px; /* Jarak bawah label */
+    color: #666; /* Warna teks label */
+}
+
+/* Input dan Textarea */
+input[type="number"], input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 100%; /* Lebar 100% */
+    padding: 10px; /* Padding dalam input */
+    border: 1px solid #ddd; /* Border */
+    border-radius: 4px; /* Sudut melengkung */
+    box-sizing: border-box; /* Menghitung padding dan border dalam lebar */
+}
+
+/* Tombol Submit */
+button {
+    width: 100%; /* Lebar tombol 100% */
+    padding: 10px; /* Padding dalam tombol */
+    background-color: #007bff; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Tanpa border */
+    border-radius: 4px; /* Sudut melengkung */
+    cursor: pointer; /* Ubah kursor saat hover */
+    transition: background-color 0.3s; /* Transisi warna */
+}
+
+button:hover {
+    background-color: #0056b3; /* Warna saat hover */
+}
+
+/* Pesan Sukses dan Error */
+.success-message {
+    color: green; /* Warna teks untuk pesan sukses */
+    margin-bottom: 10px; /* Jarak bawah pesan sukses */
+}
+
+.error-message {
+    color: red; /* Warna teks untuk pesan error */
+    margin-bottom: 10px; /* Jarak bawah pesan error */
+}
+
+/* Tabel */
+table {
+    width: 100%; /* Lebar tabel 100% */
+    border-collapse: collapse; /* Menghilangkan jarak antar border */
+    margin-top: 20px; /* Jarak atas tabel */
+}
+
+table th, table td {
+    padding: 10px; /* Padding dalam sel tabel */
+    text-align: left; /* Teks rata kiri */
+    border: 1px solid #ddd; /* Border */
+}
+
+table th {
+    background-color: #007bff; /* Warna latar belakang header tabel */
+    color: white; /* Warna teks header tabel */
+}
+
+table tr:hover {
+    background-color: #f1f1f1; /* Warna latar belakang saat hover */
+}

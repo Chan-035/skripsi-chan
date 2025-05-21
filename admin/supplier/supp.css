@@ -1,0 +1,73 @@
+/* Style untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fc; /* Warna latar belakang */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style untuk container */
+.container {
+    width: 400px; /* Lebar kontainer */
+    margin: 50px auto; /* Margin atas dan bawah 50px, tengah secara horizontal */
+    padding: 20px; /* Padding di dalam kontainer */
+    background-color: #fff; /* Warna latar belakang kontainer */
+    border-radius: 8px; /* Sudut melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+/* Style untuk heading */
+h2 {
+    text-align: center; /* Teks di tengah */
+    color: #333; /* Warna teks */
+}
+
+/* Style untuk label */
+label {
+    display: block; /* Membuat label menjadi block element */
+    margin-bottom: 5px; /* Margin bawah untuk label */
+}
+
+/* Style untuk input dan textarea */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+    width: 100%; /* Lebar penuh */
+    padding: 10px; /* Padding di dalam input */
+    margin: 10px 0; /* Margin atas dan bawah 10px */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 4px; /* Sudut melengkung */
+    box-sizing: border-box; /* Menghitung padding dan border dalam lebar total */
+}
+
+
+
+/* Style untuk button */
+.container button {
+    width: 100%; /* Lebar penuh */
+    padding: 10px; /* Padding di dalam button */
+    background-color: #007bff; /* Warna latar belakang button */
+    color: white; /* Warna teks */
+    border: none; /* Tanpa border */
+    border-radius: 4px; /* Sudut melengkung */
+    cursor: pointer; /* Kursor pointer saat hover */
+    font-size: 16px; /* Ukuran font */
+    margin-top: 10px; /* Margin atas untuk button */
+}
+
+/* Hover effect untuk button */
+button:hover {
+    background-color: #0056b3; /* Warna latar belakang saat hover */
+}
+
+/* Style untuk tombol batal */
+.btn-secondary {
+    background-color: #6c757d; /* Warna latar belakang untuk tombol batal */
+    margin-top: 10px; /* Margin atas untuk tombol batal */
+}
+
+/* Hover effect untuk tombol batal */
+.btn-secondary:hover {
+    background-color: #5a6268; /* Warna latar belakang saat hover */
+}

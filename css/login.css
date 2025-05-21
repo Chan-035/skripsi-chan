@@ -1,0 +1,117 @@
+/*--------------------------------------------------------------
+# General Styles
+--------------------------------------------------------------*/
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #0c0b09; /* Warna latar belakang gelap */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #cda45e;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #d9ba85;
+  }
+  
+  /*--------------------------------------------------------------
+  # Login Form Container
+  --------------------------------------------------------------*/
+  .input {
+    background: #1a1814;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .input h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    color: #cda45e;
+    margin-bottom: 20px;
+  }
+  
+  /*--------------------------------------------------------------
+  # Input Fields
+  --------------------------------------------------------------*/
+  .box-input {
+    position: relative;
+    margin-bottom: 20px;
+    width: 340px;
+  }
+  
+  .box-input i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #cda45e;
+  }
+  
+  .box-input input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    font-size: 16px;
+    border: 1px solid #37332a;
+    border-radius: 5px;
+    background: #0c0b09;
+    color: #fff;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .box-input input::placeholder {
+    color: #bab3a6;
+  }
+  
+  .box-input input:focus {
+    border-color: #cda45e;
+  }
+  
+  /*--------------------------------------------------------------
+  # Submit Button
+  --------------------------------------------------------------*/
+  .btn-input {
+    background: #cda45e;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-input:hover {
+    background: #d3af71;
+  }
+  
+  /*--------------------------------------------------------------
+  # Bottom Section
+  --------------------------------------------------------------*/
+  .bottom {
+    margin-top: 20px;
+  }
+  
+  .bottom p {
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .bottom a {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  

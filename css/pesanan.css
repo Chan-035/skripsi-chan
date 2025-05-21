@@ -1,0 +1,98 @@
+/* Reset CSS untuk menghilangkan margin dan padding default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Warna latar belakang */
+    color: #343a40; /* Warna teks */
+    line-height: 1.6;
+}
+
+/* Tabel */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse; /* Menghilangkan jarak antar border */
+}
+
+.table th, .table td {
+    padding: 0.75rem; /* Padding dalam sel */
+    vertical-align: top; /* Vertikal align ke atas */
+    border-top: 1px solid #dee2e6; /* Border atas */
+}
+
+/* Header Tabel */
+.table thead th {
+    background-color: #007bff; /* Warna latar belakang header */
+    color: white; /* Warna teks header */
+}
+
+/* Tombol */
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.375rem 0.75rem; /* Padding tombol */
+    border-radius: 0.25rem; /* Sudut tombol */
+    transition: background-color 0.15s ease-in-out; /* Transisi warna */
+}
+
+.btn-warning {
+    background-color: #ffc107; /* Warna tombol edit */
+    border: none; /* Menghilangkan border */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Warna tombol delete */
+    border: none; /* Menghilangkan border */
+}
+
+/* Efek Hover pada tombol */
+.btn:hover {
+    opacity: 0.9; /* Efek transparansi saat hover */
+}
+
+/* Form Filter */
+.form-row {
+    display: flex; /* Mengatur form menjadi flexbox */
+    flex-wrap: wrap; /* Membungkus elemen jika tidak muat */
+    margin-bottom: 1rem; /* Jarak bawah form */
+}
+
+.form-group {
+    flex: 1; /* Membuat setiap form group memiliki lebar yang sama */
+    margin-right: 1rem; /* Jarak kanan antar form group */
+}
+
+.form-group:last-child {
+    margin-right: 0; /* Menghilangkan margin kanan pada form group terakhir */
+}
+
+label {
+    margin-bottom: 0.5rem; /* Jarak bawah label */
+    font-weight: bold; /* Menebalkan font label */
+}
+
+/* Button Filter */
+.btn-primary {
+    display: inline-block; /* Pastikan tombol ditampilkan sebagai inline block */
+    padding: 10px 20px; /* Tambahkan padding untuk tombol */
+    background-color: #007bff; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    border: none; /* Tanpa border */
+    border-radius: 4px; /* Sudut tombol */
+    cursor: pointer; /* Ubah kursor saat hover */
+    transition: background-color 0.3s; /* Transisi warna */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Warna saat hover */
+}

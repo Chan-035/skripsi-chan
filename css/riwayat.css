@@ -1,0 +1,131 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #0c0b09;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #cda45e;
+  }
+  
+  a {
+    color: #cda45e;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #d9ba85;
+  }
+  
+  /*--------------------------------------------------------------
+  # Order History Section
+  --------------------------------------------------------------*/
+  .order-history {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #1a1814;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .order-history table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .order-history th,
+  .order-history td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #37332a;
+  }
+  
+  .order-history th {
+    background-color: #1a1814;
+    color: #cda45e;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .order-history td {
+    color: #fff;
+  }
+  
+  .order-history button {
+    background: #cda45e;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .order-history button:hover {
+    background: #d3af71;
+  }
+  
+  .order-history .dropdown {
+    display: none;
+    background: #1a1814;
+    border: 1px solid #37332a;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 15px;
+  }
+  
+  .order-history .dropdown.active {
+    display: table-row;
+    background-color: #1a1814;
+  }
+
+  .order-history .dropdown td {
+    padding: 15px;
+    border-top: 1px solid #37332a;
+    color: #fff;
+  }
+  
+  /*--------------------------------------------------------------
+  # Responsive Design
+  --------------------------------------------------------------*/
+  @media screen and (max-width: 768px) {
+    .order-history table,
+    .order-history th,
+    .order-history td {
+      display: block;
+      width: 100%;
+    }
+  
+    .order-history th {
+      display: none;
+    }
+  
+    .order-history td {
+      border: none;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 5px;
+    }
+  
+    .order-history td:before {
+      content: attr(data-label);
+      font-weight: bold;
+      color: #cda45e;
+    }
+  
+    .order-history .dropdown {
+      margin-top: 10px;
+    }
+  }
+  

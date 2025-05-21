@@ -1,0 +1,129 @@
+/*--------------------------------------------------------------
+# General Styles
+--------------------------------------------------------------*/
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #0c0b09; /* Warna latar belakang gelap */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #cda45e;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #d9ba85;
+  }
+  
+  /*--------------------------------------------------------------
+  # Checkout Container
+  --------------------------------------------------------------*/
+  .container {
+    background: #1a1814;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .container h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    color: #cda45e;
+    margin-bottom: 20px;
+  }
+  
+  .container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .container .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .container .table th, .container .table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #37332a;
+  }
+  
+  .container .table th {
+    background-color: #1a1814;
+    color: #cda45e;
+    font-weight: bold;
+  }
+  
+  .container .table td {
+    color: #fff;
+  }
+  
+  .container h4 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #cda45e;
+  }
+  
+  .container .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #cda45e;
+    color: #fff;
+    text-transform: uppercase;
+    border: 2px solid #cda45e;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .container .btn:hover {
+    background: #d3af71;
+    border-color: #d3af71;
+  }
+  
+  .container .btn-secondary {
+    background: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .container .btn-secondary:hover {
+    background: #5a6268;
+    border-color: #545b62;
+  }
+  
+  /*--------------------------------------------------------------
+  # Responsive Design
+  --------------------------------------------------------------*/
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 30px;
+      width: 90%;
+    }
+  
+    .container h2 {
+      font-size: 28px;
+    }
+  
+    .container p {
+      font-size: 16px;
+    }
+  
+    .container .table th, .container .table td {
+      padding: 10px;
+    }
+  
+    .container .btn {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
